@@ -1,0 +1,40 @@
+### RoadMap ###
+
+# bentobox-cli ( Scaffolded )
+# Uses the Bento Library to create, manipulate, remove Bentobox Projects.
+#	Intake ( CRUDa via Argparse):
+#		--mode/-m:		( Mode Selection for cruda operations )
+#			--mode create:
+#				--dest/-d 		( Where do I put your project)
+#				--name/-n 		( What's your Bentos name)
+#				--features/-f 	( What features to add to your bento? Cli, Api, Systemd) [ dictionary ]
+#			--mode read:
+#				--source/-s		( Path to your bento )
+#
+#			--mode update:
+#				--source/-s 	( Path to your bento )
+#				--feat/-f 	( What features to add to your bento? Cli, Api, Systemd) [ dictionary ]
+#			--mode delete:
+#				--source/-s 	( Path to your bento )				
+#			--mode adv:
+#				--clone/--cl 	( Clone a Bento )
+#					--source/-s ( Path to your bento )
+#					--dest/-d	( Where do I put your project)
+#				--provision/-p	( provision bentos via a yaml file )
+
+
+bentobox-core ( Logic Core)
+	core
+		bentobox-cli
+		bento-web-gui
+		bento-api
+	features
+		cli
+		flask
+		apache-flask
+		web-gui
+		api
+		restful-api
+		soap-api
+
+bentobox-facts

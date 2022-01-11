@@ -1,0 +1,21 @@
+# bentobox-core
+# 	Basic Mandates:
+# 		First Class support:
+#			Venv ( likely via pyenv )
+#			Docker
+#
+#	Language Requirements:
+#		Python	: latest version via pyenv
+#
+#	Versioned:
+#		Build Again Latest Release(s) of Python
+#			Python3.6 ( init design )
+#			Python3.7 ( Follow up)
+#			Python3.8 ( Follow up)
+#			Python3.9 ( Follow up)
+#			Python3.10 ( Follow up)
+#			Python3.11 ( Follow up)
+#
+#		Might be worth using Tox?
+
+# Template Engine
